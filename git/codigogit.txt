@@ -1,0 +1,40 @@
+comandos git terminal:
+
+git -- version  -------------------   (SERVE PARA VER A VERSÃO INSTALADA DO GIT)
+
+git init        -------------------       (SERVE PARA TRANSFORMA A PASTA EM ARQUIVO GIT)
+
+git status      -------------------      (SERVE PARA VER O STATUS DO ARQUIVO)
+
+git add . 	-------------------        ( SERVE PARA ADICIONAR O ARQUIVO NO GIT PARA FICAR PRONTO PARA O COMMIT)
+
+git commit -a -m "TEXTO"   -------------------    (SERVE PARA COMITAR O ARQUIVO OU COMENTAR AQUELA VERSIONALIZAÇÃO)
+
+git remote add origin https://githubexemplo.com/linkdo arquivo  -------------------     (SERVE PARA LINKA SEU REPOSITORIO REMOTO COM O DO GITHUB)
+
+
+git branch - M main      -------------------    (link repositorio serve para especificar a branch para qual esta mandando)
+
+git push -u origin main  -------------------   ( usado na criação do link com o repositorio SERVE PARA DA O PUSH PARA O REPOSITORIO DA BRANCH MAIN)
+
+
+git checkout -b "nomeda branch"  -------------------    (serve PARA CRIA UMA BRANCH NOVA)
+
+git checkout "nome da branch"    -------------------    (SERVE PARA MUDAR DE BRANCH)
+
+git checkout .\nomedoarquivo.exemplo  ---------------------- (SERVE CASO VOCÊ QUEIRA APAGA as pendencias QUE ACABOU DE FAZER OU NÃO QUER ENVIAR ELA)
+
+git branch   -------------------     (SERVE PARA VER TODAS AS BRANCH DO REPOSITORIO E QUAL ESTA SELECIONADA)
+
+
+git pull     -------------------   (SERVE PARA PUXAR INFORMAÇÕES DO REPOSITORIOS)
+
+
+git merge nomedabranch -------------------   (SERVE PARA DA MERGE ENTRE AS BRANCH, TEM QUE ESTA NA BRANCH EM QUE VAI LEVAR O MERGE E SELECIONAR O NOME DA BRANCH QUE VAI PASSAR AS INFORMAÇÕES)
+
+
+git clean -f  --------------------- (SERVE PARA EXCLUIR OS ARQUIVO QUE VOCÊ NÃO QUER DA COMMIT OU ADD)  
+
+att
+
+
