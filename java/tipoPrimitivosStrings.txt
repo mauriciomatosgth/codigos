@@ -1,0 +1,22 @@
+ •Formatar:
+
+ 	toLowerCase(), -- Transforma a string em minuscula
+	toUpperCase(), -- Transforma a string em maiuscula
+	trim() -- Retira os espaços das laterais da String
+
+ •Recortar:
+
+	substring(inicio), -- Marca em que indice vai começar
+	substring(inicio, fim) -- Marca onde vai começar e onde vai acabar
+
+ •Substituir:
+
+	Replace(char, char), -- Trocar um Caractere por outro
+	Replace(string, string) -- Troca uma String por outro palavras conjunto de letra (ex replace.("an","en"))
+
+ •Buscar:
+
+	IndexOf, -- Mostra o Primeiro indice selecionado (ex: IndexOf("a"))
+	LastIndexOf -- Mostra o ultimo indice selecionado (ex: IndexOf("a"))
+
+ •str.Split(" ") -- Separa a String em uma lista e so pode imprimir mostrando o numero do indice (ex: atribui usando String[] variavel = nome.split(" "), para imprimir usa variavel [0] ou outro numero do indice)
