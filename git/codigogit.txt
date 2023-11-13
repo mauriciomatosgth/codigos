@@ -22,12 +22,18 @@ git checkout -b "nomeda branch"  -------------------    (serve PARA CRIA UMA BRA
 
 git checkout "nome da branch"    -------------------    (SERVE PARA MUDAR DE BRANCH)
 
+git checkout "codigo do commit"  --------------------(SERVE PARA VOLTAR PARA O COMMIT SELECIONADO)
+
+git checkout HEAD~1 ---------(SERVE PARA VOLTAR 1 COMMIT SE FOR HEAD~2 VOLTA 2 E ASSIM EM DIANTE)
+
 git checkout .\nomedoarquivo.exemplo  ---------------------- (SERVE CASO VOCÊ QUEIRA APAGA as pendencias QUE ACABOU DE FAZER OU NÃO QUER ENVIAR ELA)
 
 git branch   -------------------     (SERVE PARA VER TODAS AS BRANCH DO REPOSITORIO E QUAL ESTA SELECIONADA)
 
 
 git pull     -------------------   (SERVE PARA PUXAR INFORMAÇÕES DO REPOSITORIOS)
+
+git pull origin main(puxa tudo que esta no repositorio remoto)
 
 
 git merge nomedabranch -------------------   (SERVE PARA DA MERGE ENTRE AS BRANCH, TEM QUE ESTA NA BRANCH EM QUE VAI LEVAR O MERGE E SELECIONAR O NOME DA BRANCH QUE VAI PASSAR AS INFORMAÇÕES)
@@ -36,5 +42,26 @@ git merge nomedabranch -------------------   (SERVE PARA DA MERGE ENTRE AS BRANC
 git clean -f  --------------------- (SERVE PARA EXCLUIR OS ARQUIVO QUE VOCÊ NÃO QUER DA COMMIT OU ADD)  
 
 att
+
+git log  -------------------------- mostra todos commits
+
+
+git log --oneline  -------- mostra todos commits em uma linha
+
+
+git reset ------ retira da área de stage ou volta pra antes de usar o git add .
+
+git reset --soft HEAD~1 (Deleta o ultimo commit sem apagar as modificações)
+
+
+ATENÇÃO!! git reset --hard "codigo do commit"(apaga todos  commit ate o commit selecionado)
+
+
+git diff -------  mostra a diferença dos arquivos, tem que usar o nome  do arquivo ex: git diff  arquivo.html
+
+comandos para limpar algum comando errado(exemplo modificação feita em um commit antigo): reseta para antes das alterações
+git reset
+git clean -df
+git checkout -- .
 
 
